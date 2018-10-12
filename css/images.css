@@ -2,7 +2,7 @@
     background: url("../imgs/banner.jpg") top center;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
   }
 
   .slide1 {
