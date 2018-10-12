@@ -93,22 +93,14 @@ nav {
     text-align: center;
 }
 
-#panel1-content h1 {
-    font-size: 1.7rem;
-}
-
 #panel1Panel {
     padding: 25px;
-    background-color: rgba(1,1,1,0.4);
-    border-radius: 0px 10px 10px 0px;
-    max-width: 70vw;
-    min-width: 50vw;
+    background-color: rgba(1,1,1,0.2);
+    border-radius: 0px 3px 3px 0px;
+    width: 40vw;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
     text-align: center;
-}
-
-#panel2Content {
 }
 
 .panel-fade-in {
