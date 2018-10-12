@@ -1,0 +1,211 @@
+﻿* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+}
+
+    a:hover {
+        color: #1baabf;
+        text-decoration: none; /* Get rid of underline on hover. */
+    }
+
+nav {
+    text-align: left;
+    width: 100%;
+    /*height: 50px;*/
+    position: fixed;
+    margin: 0;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.navItem {
+    position: relative;
+    top: 15%;
+    margin: 0 20px;
+    /*color: #586f93;*/
+    /*color: #007bff;*/
+    color: #1baabf;
+}
+
+    .navItem:hover {
+        transition: color 0.4s ease;
+        color: white;
+        cursor: pointer;
+    }
+
+#navLogo { /* Image. */
+    max-height: 25px;
+}
+
+#navLogoBackground { /* Span (text and background for image). */
+    margin-left: -10px;
+    padding: 14.5px;
+    background: rgba(0,100, 100,0.2);
+    color: whitesmoke;
+}
+
+    .landingLink:hover {
+        cursor: pointer;
+    }
+/* A class used to make a panel the same size as the current viewport
+    example use == for a landing page.
+*/
+.fullscreen {
+    height: 100vh; /* 100% of view height (vh) */
+}
+
+#panel1 {
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index:0;
+}
+
+#panel2 {
+    background-color: whitesmoke;
+    z-index: 0;
+}
+
+#panel3 {
+    background-color: whitesmoke;
+    z-index:0;
+}
+
+.panel-content {
+    position: relative;
+    /*top: 35%;*/
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    /*max-width: 9in;*/
+    text-align: center;
+}
+
+#panel1-content h1 {
+    font-size: 1.7rem;
+}
+
+#panel1Panel {
+    padding: 25px;
+    background-color: rgba(1,1,1,0.4);
+    border-radius: 0px 10px 10px 0px;
+    max-width: 70vw;
+    min-width: 50vw;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+#panel2Content {
+}
+
+.panel-fade-in {
+    /* Bring background into focus. */
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+.panel-fade-out {
+    /* Make background transparent. */
+    opacity: 0;
+    transition: all 2.0s ease;
+}
+
+/* Imitating the iphone scrollify example */
+/* Setting display: block, otherwise inline by default. */
+.image-start-pos {
+    display: none;
+}
+
+.image-secondary-pos {
+    display: block;
+    position: fixed;
+    right: 10vh;
+    /* Position image 150% of screen size from top of first page (50% into second). */
+    bottom: 10vh;
+    transition: all 1.5s ease;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 0.25s ease;
+}
+
+.fade-in {
+    display: block;
+    transition: all 0.75s ease;
+}
+
+.myButton1 {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px 5px;
+    background: rgba(0,100, 100,0.2);
+    font-style: oblique;
+    width: 1.5in;
+    margin: 5px 20px;
+    color: white;
+}
+
+    .myButton1 :hover {
+        cursor: pointer;
+    }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100vw;
+}
+
+#footerContent {
+    position: relative;
+    top: 30%;
+    font-size: small;
+}
+
+.footerItem {
+    margin: 0 20px;
+}
+
+.panel1Size {
+    height: 100vh;
+}
+
+.panel2Size {
+    height: 100vh;
+    width: 100vw;
+}
+
+.panel3Size {
+    height: 100vh;
+    width:100vw;
+}
+
+#scroll-image {
+    z-index: 100;
+}
+
+.formControl{
+    padding:10px 0;
+}

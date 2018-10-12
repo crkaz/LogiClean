@@ -3,28 +3,33 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        display: inline-block;
-        width: 100%;
-        flex-shrink: 0;
-        transition: 0.9s ease-in-out transform;
-        backface-visibility: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: inline-block;
+    width: 100%;
+    flex-shrink: 0;
+    backface-visibility: hidden;
   }
 
   .slide1 {
-    background: url("../imgs/portfolio1.jpg") top center;
+    background: url("../imgs/portfolio1.jpg") rgba(34, 34, 34,0.2);
+    background-repeat: no-repeat;
+    background-size: 100vh auto;
   }
   
   .slide2 {
-    background: url("../imgs/portfolio2.jpg") top center;
+    background: url("../imgs/portfolio2.jpg") rgba(34, 34, 34,0.2);
+    background-repeat: no-repeat;
+    background-size: 100vh auto;
   }
   
   .slide3 {
-    background: url("../imgs/portfolio3.jpg") top center;
+    background: url("../imgs/portfolio3.jpg") top center rgba(34, 34, 34,0.2);
+    background-repeat: no-repeat;
   }
   
   .slide4 {
-    background: url("../imgs/portfolio4.jpg") top center;
+    background: url("../imgs/portfolio4.jpg") top center rgba(34, 34, 34,0.2);
+    background-repeat: no-repeat;
   }
