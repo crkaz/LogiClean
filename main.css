@@ -60,7 +60,6 @@ a {
 		padding-bottom:10px;
 		padding-right:5px;
 		padding-left:10px;
-		background: rgba(0,100, 100,0.2);
 		color: whitesmoke;
 	}
 	
@@ -190,8 +189,24 @@ footer {
 		margin: 0 10px;
 	}
 	
+footer{
+	 bottom:155px;
+}
+
 	.footer-item{
 		font-size: small;
 		margin: 0 10px;
+	}
+
+	form{
+		font-size: smaller;
+	}
+
+	i{
+		font-size: 0.7rem;
+	}
+
+	.dont-display-in-mobile{
+		display:none;
 	}
 }
