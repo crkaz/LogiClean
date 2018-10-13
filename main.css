@@ -197,16 +197,4 @@ footer{
 		font-size: small;
 		margin: 0 10px;
 	}
-
-	form{
-		font-size: smaller;
-	}
-
-	i{
-		font-size: 0.7rem;
-	}
-
-	.dont-display-in-mobile{
-		display:none;
-	}
 }
