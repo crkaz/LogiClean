@@ -2,7 +2,7 @@
 // Initial state
 var scrollPos = 0;
 var scrollDown = false;
-var panels = ['#panel1']; // Panels to fade.
+var panels = ['#landing-section']; // Panels to fade.
 $(window).scroll(function () {
 
     // detects new state and compares it with the new one

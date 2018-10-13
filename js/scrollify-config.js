@@ -32,11 +32,21 @@ $(function () {
 
     $(".scrollToPanel2").click(function (e) {
         e.preventDefault();
-        $.scrollify.move("#gallery");
+        $.scrollify.move("#about");
     });
 
     $(".scrollToPanel3").click(function (e) {
         e.preventDefault();
+        $.scrollify.move("#gallery");
+    });
+
+    $(".scrollToPanel4").click(function (e) {
+        e.preventDefault();
         $.scrollify.move("#contact");
+    });
+
+    $(".scrollToPanel5").click(function (e) {
+        e.preventDefault();
+        $.scrollify.move("#UNDEFINED DATA SECTION NAME");
     });
 });

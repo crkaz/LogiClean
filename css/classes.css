@@ -1,0 +1,13 @@
+.fullscreen {
+	height: 100vh;
+	width: 100%;
+}
+
+.slide-image {
+	background-repeat: no-repeat;
+	background-size: auto 120%;
+}
+
+.section-header {
+	font-family: 'Play', sans-serif;
+}

@@ -1,244 +1,200 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>LogiClean: Professional and affordable valeting.</title>
-    <title>ScrollifySample</title>
+   <head>
+      <!-- Meta -->
+      <title>LogiClean : Professional and affordable valting.</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="css/parallax.css">
+      <link rel="stylesheet" type="text/css" href="css/images.css">
+      <link rel="stylesheet" type="text/css" href="css/classes.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
+      <!-- Load the latest jQuery for use in other scripts i.e. scrollify.js -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Stylesheets -->
-    <link href="css/navbar.css" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/parallax.css">
-    <link rel="stylesheet" type="text/css" href="css/images.css">
-    <!-- Stylesheets -->
+        <!-- Fonts --><link href="https://fonts.googleapis.com/css?family=Play|Poiret+One|Raleway:200" rel="stylesheet">
+   </head>
+   <body>
 
-    <!-- Load the latest jQuery for use in other scripts i.e. scrollify.js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-</head>
-<body>
-    <!-- CONTENT -->
-    <!-- The section tag is the same as <div> but implies (with no apparent effect) that the contents are all related/thematic. -->
-    <!-- The panel class identifies a scrollify section ("snap" region) -->
-    <!-- In this example, we have 3 regions(sections/panels) that we'll snap between. -->
-    <div id="wrapper">
-
-        <!------------- Navbar -------------->
-        <nav class="navbar-inverse bs-dark hidden" style="z-index: 100;">
-            <a href="#top" class="navItem">
-                <span id="navLogoBackground">
+    <!-- Nav bar -->
+    <nav class="navbar-inverse bs-dark hidden" style="z-index: 100;">
+            <a href="#landing" class="navItem">
+                <span id="navLogoBackground scrollToPanel1">
                     C
-                    <img id="navLogo" src="imgs/logo5.png" />
+                    <img id="navLogo" src="imgs/logo.png" />
                     V
                 </span>
             </a>
             <span style="color:black;">|</span>
-            <span class="navItem scrollToPanel2">Gallery</span>
+            <span class="navItem scrollToPanel2">About</span>
             <span style="color:black;">|</span>
-            <span class="navItem scrollToPanel3">Contact</span>
+            <span class="navItem scrollToPanel3">Gallery</span>
+            <span style="color:black;">|</span>
+            <span class="navItem scrollToPanel4">Contact</span>
         </nav>
-        <!----------- !Navbar End ------------>
-        <!-- Back to top button -->
-        <a href="#top">
-            <img src="imgs/back-to-top.svg" id="scroll-image" style="max-width:100px; width: 7vh;" />
-        </a>
-        <!-- Back to top button -->
-        <!-- First scrollify panel : Transparent landing page for fixed background image -->
-        <section id="panel1" class="panel fullscreen" data-section-name="landing">
-            <div id="panel1-content" class="panel-content panel1Size">
-                <div id="panel1Panel">
 
-                    <h1>LogiClean</h1>
-                    <hr />
-                    <p style="font-style:italic; font-weight:100">Professional and affordable valeting.</p>
-                    <hr />
-                    <div id="landingLinks">
-                        <!--
-                            <span class="landingLink scrollToPanel2 navItem myButton1">Gallery</span>
-                            <span class="landingLink scrollToPanel3 navItem myButton1">Contact</span>
-                        -->
-                    </div>
+      <!-- Landing Section -->
+      <section id="landing-section" class="panel fullscreen banner" data-section-name="landing">
+            <h1 id="site-title">LogiClean</h1>
+          <h2 id="slug">Professional and affordable valeting.</h2>
+      </section>
 
-                    <!-- See more button -->
-                    <!--<div id="read-more-button" class="scroll">
-                        <div>Read more...</div>
-                        <img src="images/read-more.svg" style="max-width:50vh;" />
-                    </div>-->
-                    <!-- See more button -->
-                </div>
+      <!-- About Section -->
+    <section id="about-section" class="panel" data-section-name="about">
+        <h2>Service</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus justo tristique rhoncus convallis. Donec pulvinar malesuada ante, id pulvinar nulla lacinia quis. Donec malesuada semper erat, non cursus sapien feugiat et. Aliquam dapibus accumsan rhoncus. Fusce et suscipit metus. Nulla facilisi. Vestibulum volutpat facilisis est in molestie. Sed a feugiat turpis. Sed luctus semper velit. Suspendisse ac volutpat odio.</p>
+        <h2>Products</h2>
+        <p>Aliquam vel dolor elit. Fusce varius metus sit amet nisi rutrum rhoncus. Nulla facilisi. Etiam ultricies sodales tortor scelerisque accumsan. Curabitur vitae dolor nunc. Nam quis nunc non metus faucibus sollicitudin. Suspendisse in mauris ut lacus venenatis pretium. Duis sem eros, dapibus in urna id, ornare pellentesque enim. Cras rutrum nisl quis massa luctus, eu finibus dolor tristique. Curabitur rhoncus semper leo, cursus laoreet mauris maximus vitae. Quisque euismod libero turpis, et posuere leo molestie sit amet. Pellentesque eu vulputate purus.</p>
+    </section>
 
-            </div>
-        </section>
-
-        <!-- Second scrollify panel -->
-        <section id="panel2" class="panel fullscreen" data-section-name="gallery">
-
-            <div class="panel-content panel2Size container-fluid">
-                <div class="row">
-                    <div class="col-sm-1">
-                    </div>
-                    <div class="col-sm-2">
-                        <h1>Gallery</h1>
-                    </div>
-                    <!--<div class="col-sm">
-                        <p>Interior detailing..</p>
-                    </div>-->
-                    <div class="col-sm-9">
-                        <div>
-                            <p>Professional detailing, inside and out..</p>
-                            <div class="parallax-slider">
-                                <div class="slider-wrapper">
-                                    <div class="slide slide1 slide-active">
-                                        <div class="content">
-                                            <div class="container">
-                                                <div class="col-md-6 caption">
-                                                    <h1>Lorem ipsum dolor sit</h1>
-                                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide slide2">
-                                        <div class="content">
-                                            <div class="container">
-                    
-                                                <div class="col-md-6 caption">
-                                                    <h1>Lorem ipsum dolor sit</h1>
-                                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
-                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide slide3">
-                                        <div class="content">
-                                            <div class="container">
-                                                <div class="col-md-6 caption">
-                                                    <h1>Lorem ipsum dolor sit</h1>
-                                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                    
-                    
-                                    <div class="slide slide4">
-                                        <div class="content">
-                                            <div class="container">
-                                                <div class="col-md-6 caption">
-                                                    <h1>Lorem ipsum dolor sit</h1>
-                                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                    
-                                </div>
-                                <div class="slide-indicator">
-                                    <ol>
-                                        <li class="active"></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ol>
-                                </div>
+      <!-- Gallery Section -->
+      <section id="gallery-section" class="panel" data-section-name="gallery">
+            <h1 class="section-header">GALLERY</h1>
+            <div id="gallery-content">
+            <div class="parallax-slider">
+                <div class="slider-wrapper">
+                <div class="slide slide1 slide-active slide-image">
+                    <div class="content">
+                        <div class="container">
+                            <div class="col-md-6 caption">
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Third scrollify panel -->
-        <section id="panel3" class="panel fullscreen" data-section-name="contact">
-            <div class="panel-content panel3Size container-fluid">
-                <div class="row">
-                    <div class="col-sm-1">
-                    </div>
-                    <div class="col-sm-2">
-                        <h1>Contact</h1>
-                    </div>
-                    <!--<div class="col-sm">
-        <p>Use the form on the right to get in touch, and I'll try to reply within 1-2 days.</p> -->
-                    <div class="col-sm-9">
-                        <div class="formControl">
-                            <p>Please tell me how you'd prefer to hear back from me:</p>
-                            <span>
-                                Email
-                                <input type="checkbox" />
-                            </span>
-                            <span>
-                                Phone
-                                <input type="checkbox" />
-                            </span>
-                            <span>
-                                SMS
-                                <input type="checkbox" />
-                            </span>
-                        </div>
-                        <div class="formControl">
-                            <span>
-                                Name:
-                                <input type="text" />
-                            </span>
-                        </div>
-                        <div class="formControl">
-                            <span>
-                                Email:
-                                <input type="email" />
-                            </span>
-                        </div>
-                        <div class="formControl">
-                            <span>
-                                Contact number:
-                                <input type="text" />
-                            </span>
-                        </div>
-                        <div class="formControl">
-                            <button>Submit</button>
+                <div class="slide slide2 slide-image">
+                    <div class="content">
+                        <div class="container">
+                            <div class="col-md-6 caption">
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="slide slide3 slide-image">
+                    <div class="content">
+                        <div class="container">
+                            <div class="col-md-6 caption">
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide4 slide-image">
+                    <div class="content">
+                        <div class="container">
+                            <div class="col-md-6 caption">
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="slide-indicator">
+                <ol>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact-section" class="panel fullscreen" data-section-name="contact">
+            <h1 class="section-header">CONTACT</h1>
+            
+            <p>Please tell me how you'd prefer to hear back from me:</p>
+            <br/>
+            
+<form id="userform" action="https://formspree.io/enterzakari.xd@live.co.uk"  method="POST" onsubmit="alert('Message sent successfully')">
+            <div class="formControl">
+                    <span>
+                        Email
+                        <input name="preferReplyViaEmail" type="checkbox" />
+                    </span>
+                    <span>
+                        Phone
+                        <input name="preferReplyViaPhonecall" type="checkbox" />
+                    </span>
+                    <span>
+                        SMS
+                        <input name="preferReplyViaSMS" type="checkbox" />
+                    </span>
+                </div>
+                <div class="formControl">
+                    <span>
+                        Name:
+                        <input name="name" type="text" />
+                    </span>
+                </div>
+                <div class="formControl">
+                    <span>
+                        Email:
+                        <input name="_emailAddress" type="email" />
+                    </span>
+                </div>
+                <div class="formControl">
+                    <span>
+                        Contact number:
+                        <input name="_phoneNumber"  type="text" />
+                    </span>
+                </div>
+                <div class="formControl">
+                    <span>
+                        Comments/enquiry:
+                    <textarea rows="4" style="text-align:left;max-height:60px;max-width: 80vw;min-height:60px;min-width: 20vw;" name="message" form="userform">Enter text here...</textarea>
+                    </span>
+                </div>
+                <div class="formControl">
+                    <button>Submit</button>
+                </div>
+            </form>
+                <br />
                 <br />
                 <hr />
                 <p><i>Please note that I do not store or process your data in any other way than to <b>reply</b> to your message or carry out the agreed service.</i></p>
                 <hr />
-                <footer>
-                    <div id="footerContent">
-                        <span class="footerItem">
-                            <a href="https://zakcatherall.000webhostapp.com/" target="_blank">CrkazCO<sup>TM</sup></a>
-                        </span>
-                        <span class="footerItem">|</span>
-                        <span class="footerItem">
-                            <a href="#top">Catherall Valeting<sup>TM</sup></a>
-                        </span>
-                        <span class="footerItem">|</span>
-                        <span class="footerItem">
-                            2018 -
-                            <script type="text/javascript">
-                                document.write(new Date().getFullYear());
-                            </script>
-                        </span>
-                    </div>
-                </footer>
-            </div>
-        </section>
-    </div>
+            </form>
+        
+      <!-- Footer -->
+      <footer>
+            <div id="footer-content">
+               <span class="footerItem">
+               <a href="https://zakcatherall.000webhostapp.com/" target="_blank">CrkazCO<sup>TM</sup></a>
+               </span>
+               <span class="footer-item">|</span>
+               <span class="footer-item">
+               <a href="#top">LogiClean<sup>TM</sup></a>
+               </span>
+               <span class="footer-item">|</span>
+               <span class="footer-item">
+                   2018
+                  <script type="text/javascript">
+                     var date = new Date().getFullYear();
+                     
+                     if (date != 2018) {
+                         document.write(" - " + new Date().getFullYear());
+                     }
+                  </script>
+               </span>
+         </footer>
+            </section>
 
-    <!-- SCRIPTS -->
-    <!-- We load scripts after the content in <body> so that content to be affected (above) is available -->
-    <script src="js/panel-fade.js"></script>
+      <!-- Scripts -->
+      <script src="js/panel-fade.js"></script>
     <script src="js/scrollify-config.js"></script>
     <script src="js/addRemoveClass.js"></script>
     <script src="js/navbar-animation.js"></script>
     <script src="js/scrollify.js"></script>
-    <script src="js/carousel.js"></script>
-</body>
+      <script src="js/carousel.js"></script>
+      
+   </body>
 </html>
