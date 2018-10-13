@@ -175,13 +175,39 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .navItem{
+	
+	#site-title{
+	width: 100%;
+    font-size: 4.5rem;
+	}
+
+	#slug{
+		font-size:1.2rem;
+	}
+
+	.navItem{
 		font-size: small;
 		margin: 0 10px;
 	}
 	
+footer{
+	 bottom:155px;
+}
+
 	.footer-item{
 		font-size: small;
 		margin: 0 10px;
+	}
+
+	form{
+		font-size: smaller;
+	}
+
+	i{
+		font-size: 0.7rem;
+	}
+
+	.dont-display-in-mobile{
+		display:none;
 	}
 }

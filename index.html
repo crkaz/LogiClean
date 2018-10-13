@@ -18,9 +18,9 @@
    <body>
 
     <!-- Nav bar -->
-    <nav class="navbar-inverse bs-dark hidden" style="z-index: 100;">
-            <a href="#landing" class="navItem">
-                <span id="navLogoBackground scrollToPanel1">
+    <nav class="navbar-inverse bs-dark hidden">
+            <a href="#landing" class="navItem scrollToLanding">
+                <span id="navLogoBackground">
                     C
                     <img id="navLogo" src="imgs/logo.png" />
                     V
@@ -111,11 +111,13 @@
       <section id="contact-section" class="panel fullscreen" data-section-name="contact">
             <h1 class="section-header">CONTACT</h1>
             
-            <p>Please tell me how you'd prefer to hear back from me:</p>
-            <br/>
             
 <form id="userform" action="https://formspree.io/enterzakari.xd@live.co.uk"  method="POST" onsubmit="alert('Message sent successfully')">
-            <div class="formControl">
+    
+    <p>Please tell me how you'd prefer to hear back from me:</p>
+    <br class="dont-display-in-mobile"/>
+
+    <div class="formControl">
                     <span>
                         Email
                         <input name="preferReplyViaEmail" type="checkbox" />
@@ -157,10 +159,10 @@
                     <button>Submit</button>
                 </div>
             </form>
-                <br />
-                <br />
+                <br class="dont-display-in-mobile"/>
+                <br class="dont-display-in-mobile" />
                 <hr />
-                <p><i>Please note that I do not store or process your data in any other way than to <b>reply</b> to your message or carry out the agreed service.</i></p>
+                <p><i >Please note that I do not store or process your data in any other way than to <b>reply</b> to your message or carry out the agreed service.</i></p>
                 <hr />
             </form>
         
