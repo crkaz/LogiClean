@@ -1,196 +1,239 @@
 body {
-	padding:0;
-	margin: 0 auto;
-	font-family: 'Poiret One', cursive;
-	color: black;
-	text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    text-align: center;
 }
 
-p{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
-	max-width: 9in;
-	margin:0 auto;
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    max-width: 9in;
+    margin: 0 auto;
 }
 
 a {
     color: white;
-	text-decoration: none; /* Get rid of underline on hover. */
+    text-decoration: none; /* Get rid of underline on hover. */
 }
 
     a:hover {
         color: #1baabf;
-		text-decoration: none; /* Get rid of underline on hover. */
-		transition: 300ms ease color;
+        text-decoration: none; /* Get rid of underline on hover. */
+        transition: 300ms ease color;
     }
 
-	nav {
-		text-align: left;
-		width: 100%;
-		/*height: 50px;*/
-		position: fixed;
-		margin: 0;
-		padding-bottom: 10px;
-		background-color: #222;
-		opacity: 0.9;
-	} 
+nav {
+    text-align: left;
+    width: 100%;
+    /*height: 50px;*/
+    position: fixed;
+    margin: 0;
+    padding-bottom: 10px;
+    background-color: #222;
+    opacity: 0.9;
+}
 
-	.navItem {
-		position: relative;
-		margin: 0 20px;
-		color: #1baabf;
-		font-family: 'Play', sans-serif;
-	}
-	
-		.navItem:hover {
-			transition: color 0.4s ease;
-			color: white;
-			cursor: pointer;
-		}
-	
-	#navLogo { /* Image. */
-		position: relative;
-		top: 6px;
-		max-height: 25px;
-	}
-	
-	#navLogoBackground { /* Span (text and background for image). */
-		margin-left: -10px;
-		padding-top:20px;
-		padding-bottom:10px;
-		padding-right:5px;
-		padding-left:10px;
-		color: whitesmoke;
-	}
-	
-		.landingLink:hover {
-			cursor: pointer;
-		}
+.navItem {
+    position: relative;
+    margin: 0 20px;
+    color: #1baabf;
+    font-family: 'Play', sans-serif;
+}
 
-		.panel-fade-in {
-			/* Bring background into focus. */
-			opacity: 1;
-			transition: all 2s ease;
-		}
-		
-		.panel-fade-out {
-			/* Make background transparent. */
-			opacity: 0;
-			transition: all 2.0s ease;
-		}
-		
-		/* Imitating the iphone scrollify example */
-		/* Setting display: block, otherwise inline by default. */
-		.image-start-pos {
-			display: none;
-		}
-		
-		.image-secondary-pos {
-			display: block;
-			position: fixed;
-			right: 10vh;
-			/* Position image 150% of screen size from top of first page (50% into second). */
-			bottom: 10vh;
-			transition: all 1.5s ease;
-		}
-		
-		.hide {
-			display: none;
-		}
-		
-		.hidden {
-			opacity: 0;
-			transition: all 0.25s ease;
-		}
-		
-		.fade-in {
-			display: block;
-			transition: all 0.75s ease;
-		}
+    .navItem:hover {
+        transition: color 0.4s ease;
+        color: white;
+        cursor: pointer;
+    }
 
-#site-title{
-	width: 500px;
+#navLogo { /* Image. */
+    position: relative;
+    top: 6px;
+    max-height: 25px;
+}
+
+#navLogoBackground { /* Span (text and background for image). */
+    margin-left: -10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.landingLink:hover {
+    cursor: pointer;
+}
+
+.panel-fade-in {
+    /* Bring background into focus. */
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+.panel-fade-out {
+    /* Make background transparent. */
+    opacity: 0;
+    transition: all 2.0s ease;
+}
+
+/* Imitating the iphone scrollify example */
+/* Setting display: block, otherwise inline by default. */
+.image-start-pos {
+    display: none;
+}
+
+.image-secondary-pos {
+    display: block;
+    position: fixed;
+    right: 10vh;
+    /* Position image 150% of screen size from top of first page (50% into second). */
+    bottom: 10vh;
+    transition: all 1.5s ease;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 0.25s ease;
+}
+
+.fade-in {
+    display: block;
+    transition: all 0.75s ease;
+}
+
+#title-wrapper {
+    background-color: rgba(2,2,2,0.2);
+    width: 100%;
+    position: relative;
+    top: 14vh;
+}
+
+#site-title {
+    width: 500px;
     font-size: 7rem;
-	font-weight: 700;
-	color:whitesmoke;
-	border: 1px solid whitesmoke;
-	margin: 0 auto;
-	position: relative;
-	top: 18vh;
+    font-weight: 700;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
 }
 
-#slug{
-	position: relative;
-	top:16vh;
-	font-size: 1.5rem;
+#slug {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-section{
-	padding-top:60px;
+section {
+    padding-top: 40px;
 }
 
 #landing-section {
-	padding-top:0px;
+    padding-top: 0px;
 }
 
 #about-section {
-	background-color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+#price-plan-wrapper {
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    color: whitesmoke;
+}
+
+.price-plan {
+    display: inline-block;
+    background-color: rgba(2,2,2, 0.5);
+    border: 1px solid rgba(2,2,2, 0.8);
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px rgba(2,2,2,0.4);
+    width: 275px;
+    height: 160px;
+    /*padding-left: 40px;
+    padding-right: 40px;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.package-details {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:125px;
+}
+
+.package-price {
+    position: relative;
+    margin-left: 10px;
+    top: -20px;
+    color: #1baabf;
+}
+
+.make-inline {
+    display: inline-block;
 }
 
 #gallery-section {
-	background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
 }
 
 #gallery-content {
-	position: relative;
-	/*top: 25%;*/
+    position: relative;
 }
 
 #contact-section {
-	background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
-.formControl{
-    padding:10px 0;
+.formControl {
+    padding: 10px 0;
 }
 
 footer {
-	position: absolute;
-	bottom:60px;
-	width: 100%;
-	background-color: rgba(0,0,0,1);
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
 }
 
-
 #footer-content {
-	font-size: small;
-	padding-top:5px;
-	padding-bottom:10px;
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .footer-item {
-	margin: 0 20px;
-	color:whitesmoke;
+    margin: 0 20px;
+    color: whitesmoke;
 }
 
 @media only screen and (max-width: 600px) {
-	
-	#site-title{
-	width: 100%;
-    font-size: 4.5rem;
-	}
 
-	#slug{
-		font-size:1.2rem;
-	}
+    #site-title {
+        width: 100%;
+        font-size: 4.5rem;
+    }
 
-	.navItem{
-		font-size: small;
-		margin: 0 10px;
-	}
+    #slug {
+        font-size: 1.2rem;
+    }
 
-	.footer-item{
-		font-size: small;
-		margin: 0 10px;
-	}
+    .navItem {
+        font-size: small;
+        margin: 0 10px;
+    }
+
+    .footer-item {
+        font-size: small;
+        margin: 0 10px;
+    }
 }

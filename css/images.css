@@ -13,17 +13,37 @@
 }
 
 .slide1 {
-  background: url("../imgs/portfolio1.jpg") center center rgba(34, 34, 34,0.2);
+    background: url("../imgs/portfolio1.jpg") center center rgba(34, 34, 34,0.2);
 }
 
 .slide2 {
-  background: url("../imgs/portfolio2.jpg") center center rgba(34, 34, 34,0.2);
+    background: url("../imgs/portfolio2.jpg") center center rgba(34, 34, 34,0.2);
 }
 
 .slide3 {
-  background: url("../imgs/portfolio3.jpg") center center rgba(34, 34, 34,0.2);
+    background: url("../imgs/portfolio3.jpg") center center rgba(34, 34, 34,0.2);
 }
 
 .slide4 {
-  background: url("../imgs/portfolio4.jpg") center center rgba(34, 34, 34,0.2);
+    background: url("../imgs/portfolio4.jpg") center center rgba(34, 34, 34,0.2);
+}
+
+.slide5 {
+    background: url("../imgs/portfolio5.jpg") center center rgba(34, 34, 34,0.2);
+}
+
+.slide6 {
+    background: url("../imgs/portfolio6.jpg") center center rgba(34, 34, 34,0.2);
+}
+
+.slide7 {
+    background: url("../imgs/portfolio7.jpg") center center rgba(34, 34, 34,0.2);
+}
+
+.slide8 {
+    background: url("../imgs/portfolio8.jpg") center center rgba(34, 34, 34,0.2);
+}
+
+.slide9 {
+    background: url("../imgs/portfolio9.jpg") center center rgba(34, 34, 34,0.2);
 }

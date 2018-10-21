@@ -1,201 +1,288 @@
 <!doctype html>
 <html>
-   <head>
-      <!-- Meta -->
-      <title>LogiClean : Professional and affordable valeting.</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="css/parallax.css">
-      <link rel="stylesheet" type="text/css" href="css/images.css">
-      <link rel="stylesheet" type="text/css" href="css/classes.css">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
+<head>
+    <!-- Meta -->
+    <title>LogiClean : Professional and affordable valeting.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Load the latest jQuery for use in other scripts i.e. scrollify.js -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/parallax.css">
+    <link rel="stylesheet" type="text/css" href="css/images.css">
+    <link rel="stylesheet" type="text/css" href="css/classes.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-        <!-- Fonts --><link href="https://fonts.googleapis.com/css?family=Play|Poiret+One|Raleway:200" rel="stylesheet">
-   </head>
-   <body>
+    <!-- Load the latest jQuery for use in other scripts i.e. scrollify.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Play|Poiret+One|Raleway:200" rel="stylesheet">
+</head>
+<body>
 
     <!-- Nav bar -->
     <nav class="navbar-inverse bs-dark hidden">
-            <a href="#landing" class="navItem scrollToLanding">
-                <span id="navLogoBackground">
-                    <img id="navLogo" src="imgs/logo.png" />
-                    logiclean
-                </span>
-            </a>
-            <span style="color:black;">|</span>
-            <span class="navItem scrollToPanel2">About</span>
-            <span style="color:black;">|</span>
-            <span class="navItem scrollToPanel3">Gallery</span>
-            <span style="color:black;">|</span>
-            <span class="navItem scrollToPanel4">Contact</span>
-        </nav>
+        <a href="#landing" class="navItem scrollToLanding">
+            <span id="navLogoBackground">
+                <img id="navLogo" src="imgs/logo.png" />
+                logiclean
+            </span>
+        </a>
+        <span style="color:black;">|</span>
+        <span class="navItem scrollToPanel2">About</span>
+        <span style="color:black;">|</span>
+        <span class="navItem scrollToPanel3">Gallery</span>
+        <span style="color:black;">|</span>
+        <span class="navItem scrollToPanel4">Contact</span>
+    </nav>
 
-      <!-- Landing Section -->
-      <section id="landing-section" class="panel fullscreen banner" data-section-name="landing">
+    <!-- Landing Section -->
+    <section id="landing-section" class="panel fullscreen banner" data-section-name="landing">
+        <div id="title-wrapper">
             <h1 id="site-title">LogiClean</h1>
-          <h2 id="slug">Professional and affordable valeting.</h2>
-      </section>
+            <h2 id="slug">Professional and affordable valeting.</h2>
+        </div>
+    </section>
 
-      <!-- About Section -->
+    <!-- About Section -->
     <section id="about-section" class="panel" data-section-name="about">
-        <h2>Service</h2>
+        <h1 class="section-header">Service</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus justo tristique rhoncus convallis. Donec pulvinar malesuada ante, id pulvinar nulla lacinia quis. Donec malesuada semper erat, non cursus sapien feugiat et. Aliquam dapibus accumsan rhoncus. Fusce et suscipit metus. Nulla facilisi. Vestibulum volutpat facilisis est in molestie. Sed a feugiat turpis. Sed luctus semper velit. Suspendisse ac volutpat odio.</p>
-        <h2>Products</h2>
+        <br />
+
+        <div id="price-plan-wrapper">
+            <div class="price-plan">
+                <h2>Silver</h2>
+                <ul class="package-details make-inline">
+                    <li>Basic wash</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h1 class="make-inline package-price">£10</h1>
+            </div>
+            <div class="price-plan" style="margin-left:50px;margin-right:50px;">
+                <h2>Platinum</h2>
+                <ul class="package-details make-inline">
+                    <li>Full valet</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h1 class="make-inline package-price">£25</h1>
+            </div>
+            <div class="price-plan">
+                <h2>Diamond</h2>
+                <ul class="package-details make-inline">
+                    <li>Full valet</li>
+                    <li>Engine-bay clean</li>
+                    <li>Carnuba Wax</li>
+                </ul>
+                <h1 class="make-inline package-price">£35</h1>
+            </div>
+        </div>
+
+        <h1 class="section-header">Products</h1>
         <p>Aliquam vel dolor elit. Fusce varius metus sit amet nisi rutrum rhoncus. Nulla facilisi. Etiam ultricies sodales tortor scelerisque accumsan. Curabitur vitae dolor nunc. Nam quis nunc non metus faucibus sollicitudin. Suspendisse in mauris ut lacus venenatis pretium. Duis sem eros, dapibus in urna id, ornare pellentesque enim. Cras rutrum nisl quis massa luctus, eu finibus dolor tristique. Curabitur rhoncus semper leo, cursus laoreet mauris maximus vitae. Quisque euismod libero turpis, et posuere leo molestie sit amet. Pellentesque eu vulputate purus.</p>
     </section>
 
-      <!-- Gallery Section -->
-      <section id="gallery-section" class="panel" data-section-name="gallery">
-            <h1 class="section-header">GALLERY</h1>
-            <div id="gallery-content">
+    <!-- Gallery Section -->
+    <section id="gallery-section" class="panel" data-section-name="gallery">
+        <h1 class="section-header">GALLERY</h1>
+        <div id="gallery-content">
             <div class="parallax-slider">
                 <div class="slider-wrapper">
-                <div class="slide slide1 slide-active slide-image">
-                    <div class="content">
-                        <div class="container">
-                            <div class="col-md-6 caption">
-                            <h1>Lorem ipsum dolor sit</h1>
-                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                    <div class="slide slide1 slide-active slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="slide slide2 slide-image">
-                    <div class="content">
-                        <div class="container">
-                            <div class="col-md-6 caption">
-                            <h1>Lorem ipsum dolor sit</h1>
-                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                    <div class="slide slide2 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="slide slide3 slide-image">
-                    <div class="content">
-                        <div class="container">
-                            <div class="col-md-6 caption">
-                            <h1>Lorem ipsum dolor sit</h1>
-                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                    <div class="slide slide3 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="slide slide4 slide-image">
-                    <div class="content">
-                        <div class="container">
-                            <div class="col-md-6 caption">
-                            <h1>Lorem ipsum dolor sit</h1>
-                            <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                    <div class="slide slide4 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="slide slide5 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="slide slide6 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide7 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide8 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide9 slide-image">
+                        <div class="content">
+                            <div class="container">
+                                <div class="col-md-6 caption">
+                                    <h1>Lorem ipsum dolor sit</h1>
+                                    <p>Curabitur blandit felis massa, et dapibus mi pretium nec.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="slide-indicator">
-                <ol>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
+                    <ol>
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Contact Section -->
-      <section id="contact-section" class="panel fullscreen" data-section-name="contact">
-            <h1 class="section-header">CONTACT</h1>
-            
-            
-<form id="userform" action="https://formspree.io/logiboy@live.co.uk"  method="POST" onsubmit="alert('Message sent successfully.')">
-    
-    <p>Please tell me how you'd prefer to hear back from me:</p>
-    <br/>
+    <!-- Contact Section -->
+    <section id="contact-section" class="panel fullscreen" data-section-name="contact">
+        <h1 class="section-header">CONTACT</h1>
 
-    <div class="formControl">
-                    <span>
-                        Email
-                        <input name="preferReplyViaEmail" type="checkbox" />
-                    </span>
-                    <span>
-                        Phone
-                        <input name="preferReplyViaPhonecall" type="checkbox" />
-                    </span>
-                    <span>
-                        SMS
-                        <input name="preferReplyViaSMS" type="checkbox" />
-                    </span>
-                </div>
-                <div class="formControl">
-                    <span>
-                        Name:
-                        <input name="name" type="text" />
-                    </span>
-                </div>
-                <div class="formControl">
-                    <span>
-                        Email:
-                        <input name="_emailAddress" type="email" />
-                    </span>
-                </div>
-                <div class="formControl">
-                    <span>
-                        Contact number:
-                        <input name="_phoneNumber"  type="text" />
-                    </span>
-                </div>
-                <div class="formControl">
-                    <span>
-                        Comments/enquiry:
+        <form id="userform" action="https://formspree.io/logiboy@live.co.uk" method="POST" onsubmit="alert('Message sent successfully.')">
+
+            <p>Please tell me how you'd prefer to hear back from me:</p>
+            <br />
+
+            <div class="formControl">
+                <span>
+                    Email
+                    <input name="preferReplyViaEmail" type="checkbox" />
+                </span>
+                <span>
+                    Phone
+                    <input name="preferReplyViaPhonecall" type="checkbox" />
+                </span>
+                <span>
+                    SMS
+                    <input name="preferReplyViaSMS" type="checkbox" />
+                </span>
+            </div>
+            <div class="formControl">
+                <span>
+                    Name:
+                    <input name="name" type="text" />
+                </span>
+            </div>
+            <div class="formControl">
+                <span>
+                    Email:
+                    <input name="_emailAddress" type="email" />
+                </span>
+            </div>
+            <div class="formControl">
+                <span>
+                    Contact number:
+                    <input name="_phoneNumber" type="text" />
+                </span>
+            </div>
+            <div class="formControl">
+                <span>
+                    Comments/enquiry:
                     <textarea rows="4" style="text-align:left;max-height:60px;max-width: 80vw;min-height:60px;min-width: 20vw;" name="message" form="userform">Enter text here...</textarea>
-                    </span>
-                </div>
-                <div class="formControl">
-                    <button>Submit</button>
-                </div>
-            </form>
-                <br/>
-                <br/>
-                <hr />
-                <p><i >Please note that I do not store or process your data in any other way than to <b>reply</b> to your message or carry out the agreed service.</i></p>
-                <hr />
-            </form>
-        
-      <!-- Footer -->
-      <footer>
-            <div id="footer-content">
-               <span class="footerItem">
-               <a href="https://zakcatherall.000webhostapp.com/" target="_blank">CrkazCO<sup>TM</sup></a>
-               </span>
-               <span class="footer-item">|</span>
-               <span class="footer-item">
-               <a href="#top">LogiClean<sup>TM</sup></a>
-               </span>
-               <span class="footer-item">|</span>
-               <span class="footer-item">
-                   2018
-                  <script type="text/javascript">
-                     var date = new Date().getFullYear();
-                     
-                     if (date != 2018) {
-                         document.write(" - " + new Date().getFullYear());
-                     }
-                  </script>
-               </span>
-         </footer>
-            </section>
+                </span>
+            </div>
+            <div class="formControl">
+                <button>Submit</button>
+            </div>
+        </form>
+        <hr />
+        <p><i>Please note that I do not store or process your data in any other way than to <b>reply</b> to your message or carry out the agreed service.</i></p>
+        <hr />
+        </form>
 
-      <!-- Scripts -->
-      <script src="js/panel-fade.js"></script>
+        <!-- Footer -->
+        <footer>
+            <div id="footer-content">
+                <span class="footerItem">
+                    <a href="https://zakcatherall.000webhostapp.com/" target="_blank">CrkazCO<sup>TM</sup></a>
+                </span>
+                <span class="footer-item">|</span>
+                <span class="footer-item">
+                    <a href="#top">LogiClean<sup>TM</sup></a>
+                </span>
+                <span class="footer-item">|</span>
+                <span class="footer-item">
+                    2018
+                    <script type="text/javascript">
+                        var date = new Date().getFullYear();
+
+                        if (date != 2018) {
+                            document.write(" - " + new Date().getFullYear());
+                        }
+                    </script>
+                </span>
+        </footer>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/panel-fade.js"></script>
     <script src="js/scrollify-config.js"></script>
     <script src="js/addRemoveClass.js"></script>
     <script src="js/navbar-animation.js"></script>
     <script src="js/scrollify.js"></script>
-      <script src="js/carousel.js"></script>
-      
-   </body>
+    <script src="js/carousel.js"></script>
+
+</body>
 </html>
